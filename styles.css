@@ -1,12 +1,14 @@
 p, a, h1, button {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue';
+    font-size: 18px;
+    color: #1F2937;
 }
 
 .header-container {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .header-container p {
@@ -14,6 +16,7 @@ p, a, h1, button {
     font-weight: 700;
     font-size: 24px;
     flex: 1;
+    margin-left: 85px; /* hard coded */
 }
 
 .header-container a {
@@ -21,6 +24,7 @@ p, a, h1, button {
     color: #E5E7EB;
     text-decoration: none;
     margin: 10px;
+    flex: 1;
 }
 
 .title-container {
@@ -30,17 +34,23 @@ p, a, h1, button {
     text-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 100px 0px 150px 0px;
 }
 
-.title-container h1 {
+#website-title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    flex: 1;
+    margin: 0;
 }
 
 .title-container p {
     font-size: 18px;
     color: #E5E7EB;
+    text-align: left;
+    max-width: 450px;
+    flex: 1;
 }
 
 .title-container button {
@@ -51,4 +61,70 @@ p, a, h1, button {
     text-align: center;
     border: none;
     font-weight: 900;
+    flex: 1;
+    font-size: 18px;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container {
+    padding: 20px;
+    padding-bottom: 75px;
+}
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.image p {
+    max-width: 170px;
+}
+
+.image .border {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.author-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote-container .quote {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    text-wrap: wrap;
+    max-width: 720px;
+    font-weight: 300;
+    font: italic 300 2rem 'Roboto';
+    text-align: left;
 }
