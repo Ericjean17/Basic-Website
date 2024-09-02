@@ -1,3 +1,7 @@
+* {
+    flex-wrap: wrap;
+}
+
 p, a, h1, button {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue';
     font-size: 18px;
@@ -16,7 +20,7 @@ p, a, h1, button {
     font-weight: 700;
     font-size: 24px;
     flex: 1;
-    margin-left: 85px; /* hard coded */
+    flex-wrap: wrap;
 }
 
 .header-container a {
@@ -25,6 +29,7 @@ p, a, h1, button {
     text-decoration: none;
     margin: 10px;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .title-container {
@@ -65,20 +70,17 @@ p, a, h1, button {
     font-size: 18px;
 }
 
-.top-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .info-container {
     padding: 20px;
     padding-bottom: 75px;
+    flex: 1;
 }
 .info-title {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    flex: 1;
 }
 
 .image-container {
@@ -94,15 +96,18 @@ p, a, h1, button {
     max-width: 200px;
     text-align: center;
     align-items: center;
+    flex: 1;
 }
 
 .image p {
     max-width: 170px;
+    flex: 1;
 }
 
 .image .border {
     border: 5px solid #3882F6;
     border-radius: 20px;
+    flex: 1;
 }
 
 .quote-container {
@@ -135,16 +140,59 @@ p, a, h1, button {
     font-size: 24px;
     margin: 0;
     padding: 0;
+    flex: 1;
 }
 
+.sign-up-container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+    max-width: 900px;
+    gap: 200px;
+    align-items: center;
+    margin: 100px 150px 100px 400px;
+}
 
+.sign-up-container .sign-up-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.sign-up-container .action-color {
+    color: white;
+    font-weight: 700;
+    flex: 1;
+}
+
+.sign-up-container p {
+    color: #E5E7EB;
+    margin: 0;
+    flex: 1;
+}
+
+.sign-up-container button {
+    max-height: 50px;
+    border-color: white;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 8px 40px 8px 40px;
+    font-weight: 700;
+    flex: 1;
+}
 
 .footer-container {
     background-color: #1F2937;
+    flex: 1;
 }
 
 .footer-container p {
     color: #E5E7EB;
     text-align: center;
     padding: 50px;
+    flex: 1;
 }
+
