@@ -148,29 +148,22 @@ p, a, h1, button {
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 100px; 
     max-width: 900px;
-    gap: 200px;
+    gap: 50px; 
     align-items: center;
-    margin: 100px 150px 100px 400px;
+    margin: 50px auto; 
 }
 
-.sign-up-container .sign-up-text {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
 
 .sign-up-container .action-color {
     color: white;
     font-weight: 700;
-    flex: 1;
 }
 
 .sign-up-container p {
     color: #E5E7EB;
     margin: 0;
-    flex: 1;
 }
 
 .sign-up-container button {
@@ -181,7 +174,6 @@ p, a, h1, button {
     border-radius: 10px;
     padding: 8px 40px 8px 40px;
     font-weight: 700;
-    flex: 1;
 }
 
 .footer-container {
