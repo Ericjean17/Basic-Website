@@ -127,4 +127,24 @@ p, a, h1, button {
     font-weight: 300;
     font: italic 300 2rem 'Roboto';
     text-align: left;
+    margin: 0;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.footer-container {
+    background-color: #1F2937;
+}
+
+.footer-container p {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 50px;
 }
